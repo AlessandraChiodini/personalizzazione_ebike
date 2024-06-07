@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acquista la tua eBike</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Acquista la tua eBike Personalizzata</h1>
+        </header>
+        <section id="saluto">
+            <p>Ciao, <span id="nomeUtente"></span>!</p>
+            <p>Grazie per aver aggiunto al carrello la tua futura eBike!</p>
+        </section>
+        <section id="personalizzazione">
+            <h2>Personalizzazione</h2>
+            <form id="personalizzazioneForm">
+                <div class="accessorio">
+                    <input type="checkbox" id="luciCheckbox">
+                    <label for="luciCheckbox">Luci (€50)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="portapacchiCheckbox">
+                    <label for="portapacchiCheckbox">Portapacchi (€100)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="ciclocomputerCheckbox">
+                    <label for="ciclocomputerCheckbox">Ciclocomputer (€150)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="parafanghiCheckbox">
+                    <label for="parafanghiCheckbox">Parafanghi (€80)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="borsaPosterioreCheckbox">
+                    <label for="borsaPosterioreCheckbox">Borsa Posteriore (€120)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="pompaCheckbox">
+                    <label for="pompaCheckbox">Pompa (€30)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="copertoneCheckbox">
+                    <label for="copertoneCheckbox">Copertone (€70)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="sellaCheckbox">
+                    <label for="sellaCheckbox">Sella (€90)</label>
+                </div>
+                <div class="accessorio">
+                    <input type="checkbox" id="catenaCheckbox">
+                    <label for="catenaCheckbox">Catena (€40)</label>
+                </div>
+                <label class="sconto">
+                    Codice Sconto:
+                    <input type="text" id="codiceScontoInput" placeholder="Inserisci codice sconto">
+                    <span>Aggiungi il codice sconto SCONTO20</span>
+                </label>
+                <button type="button" id="calcolaButton">Calcola</button>
+            </form>
+            <div id="prezzoTotale">Prezzo Totale: €<span id="prezzo">1000</span></div>
+        </section>
+        <footer>
+            <p>© 2024 eBike Personalizzata. Tutti i diritti riservati.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

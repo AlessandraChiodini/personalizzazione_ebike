@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+#prezzoTotale {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #999;
+}
+
+.accessorio {
+    display: flex;
+    align-items: center;
+}
+
+.accessorio input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.sconto {
+    display: flex;
+    align-items: center;
+}
+
+.sconto input[type="text"] {
+    margin-right: 10px;
+}
